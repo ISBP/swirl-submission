@@ -2,7 +2,7 @@ let strings = [
     "I'm the president of my school's Hack Club!",
     "I love to build things! I mainly work on Minecraft plugins, though I do dabble in websites, Discord bots, and FRC programming!",
     "Want to see some things I've built? Check out the projects tab on my *beautiful* navbar!",
-    "I'm also into video games, such as Minecraft (obviously), Deltarune, BeamNG, Microsoft Flight Simulator! I also like photography, driving, and walking!"
+    "Some of my favorite video games are Minecraft (obviously), Deltarune, BeamNG, and Microsoft Flight Simulator! I also like photography, driving, aviation, and walking!"
 ]
 let glitchChars = [
     "#",
