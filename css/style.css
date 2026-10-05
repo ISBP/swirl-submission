@@ -30,6 +30,9 @@ div.box{
     a:hover{
         color: darkgray;
     }
+    i{
+        font-size: 25px;
+    }
 
 
 }
@@ -50,6 +53,11 @@ footer{
         color: gray;
         text-decoration: underline;
     }
+}
+img{
+    float: right;
+    width: 45vh;
+    padding-right: 55px;
 }
 /* Yes, I did get a little be of help from W3 schools, :sob: */
 .navbar{
@@ -78,4 +86,61 @@ footer{
 @font-face {
     font-family: endless;
     src: url("/fonts/endless.ttf");
+}
+
+@media only screen and (max-width: 1200px) {
+
+    div.box{
+        width: 75vw;
+        color: black;
+        height: 25vh;
+        background: white;
+        font-size: 15px;
+        padding-left: 10px;
+        object-fit: contain;
+        p{
+            font-size: 15px;
+        }
+        i{
+         font-size: 10px;
+        }
+
+
+    }
+
+    body {
+
+        div.body{
+            height: 75vh;
+            width: 75vw;
+            img{
+                object-fit: contain;
+            }
+        }
+        background-color: lightblue;
+        p{
+            font-size: 25px;
+        }
+        h1{
+            font-size: 10vw;
+        }
+        img{
+            width: 25vw;
+
+        }
+        .navbar{
+            background: cornflowerblue;
+            width: 23vw;
+            a{
+                font-size: 20px;
+                padding-right: 10px;
+
+            }
+        }
+    }
+    footer{
+        p{
+            font-size: 20px;
+        }
+    }
 }
