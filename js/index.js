@@ -1,8 +1,8 @@
 let strings = [
-    "I'm currently the president of BHC!",
-    "I love to build things, I've made websites, Minecraft plugins, and Discord bots!",
-    "See my projects on the beautiful navbar :D",
-    "Some of my other interests are photography, simulator games, and driving! :D"
+    "I'm the president of my school's Hack Club!",
+    "I love to build things! I mainly work on Minecraft plugins, though I do dabble in websites, Discord bots, and FRC programming!",
+    "Want to see some things I've built? Check out the projects tab on my *beautiful* navbar!",
+    "I'm also into video games, such as Minecraft (obviously), Deltarune, BeamNG, Microsoft Flight Simulator! I also like photography, driving, and walking!"
 ]
 let glitchChars = [
     "#",
@@ -18,7 +18,7 @@ async function glitchText()
     for(let x of strings)
     {
 
-        for(let i = 0; i < 7; i++)
+        for(let i = 0; i < 4; i++)
         {
             let glitchText = "";
             for(let i = 0; i < strings[stringsInt].length; i++)
@@ -45,9 +45,9 @@ async function glitchText()
         {
             correctedText = correctedText.concat(finishedString.charAt(i))
             document.getElementById(`${int}`).innerHTML = correctedText;
-            await sleep(5)
+            await sleep(2)
         }
-        await sleep(15)
+        await sleep(4)
     }
 }
 
