@@ -36,6 +36,22 @@ div.box{
 
 
 }
+div.contact-box{
+    width: 90vw;
+    color: black;
+    height: 20vh;
+    background: white;
+    font-size: 35px;
+    padding-left: 10px;
+    a{
+        color: gray;
+
+    }
+    a:hover{
+        color: darkgray;
+    }
+
+}
 
 body{
     background: black;
@@ -59,7 +75,7 @@ img{
     width: 45vh;
     padding-right: 55px;
 }
-/* Yes, I did get a little be of help from W3 schools, :sob: */
+/* W3 schools MIGHT have helped a tiny bit with this */
 .navbar{
 
     height: 100%;
@@ -105,7 +121,18 @@ img{
          font-size: 10px;
         }
 
-
+    }
+    div.contact-box{
+        width: 70vw;
+        color: black;
+        height: 25vh;
+        background: white;
+        font-size: 20px;
+        padding-left: 10px;
+        object-fit: contain;
+        p{
+            font-size: 20px;
+        }
     }
 
     body {
