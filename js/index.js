@@ -18,7 +18,7 @@ async function glitchText()
     for(let x of strings)
     {
 
-        for(let i = 0; i < 4; i++)
+        for(let i = 0; i < 2; i++)
         {
             let glitchText = "";
             for(let i = 0; i < strings[stringsInt].length; i++)
