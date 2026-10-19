@@ -43,6 +43,18 @@
             a:hover{
                 color: darkgray;
             }
+            .button {
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                font-family: endless, serif;
+                cursor: pointer;
+            }
         }
     </style>
     <meta name="theme-color" content="#fafafa">
@@ -50,8 +62,8 @@
 <body>
 <div class="main">
     <h1>404 - Page not found!</h1>
+        <button  onclick="location.href='/'" class="button">Go home?</button>
     <ul>
-        <li><p><a href="/"> <- Return Home?</a></p></li>
         <li><p><a href="/contact">Contact Me</a></p></li>
         <li><p><a href="/projects">Projects</a></p></li>
         <li><p><a href="https://github.com/isbp">Github</a></p></li>
