@@ -2,7 +2,7 @@ let strings = [
     "I'm the president of my school's Hack Club!",
     "I love to build things! I mainly work on Minecraft plugins, though I do dabble in websites, Discord bots, and FRC programming!",
     "Want to see some things I've built? Check out the projects tab on my *beautiful* navbar!",
-    "Some of my favorite video games are Minecraft (obviously), Deltarune, BeamNG, and Microsoft Flight Simulator! I also like photography, driving, aviation, and walking!"
+    "Some of my favorite video games are Minecraft (obviously), Deltarune, BeamNG, and Microsoft Flight Simulator! I also like photography, driving, aviation, robotics, and traveling!"
 ]
 let glitchChars = [
     "#",
@@ -45,9 +45,9 @@ async function glitchText()
         {
             correctedText = correctedText.concat(finishedString.charAt(i))
             document.getElementById(`${int}`).innerHTML = correctedText;
-            await sleep(2)
+            await sleep(1)
         }
-        await sleep(4)
+        await sleep(1)
     }
 }
 
